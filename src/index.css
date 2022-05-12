@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.countryRegion {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.layer {
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-section {
+  position: relative;
+}
+
+.boxModel {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 3em;
+  width: 500px;
+}
+
+textarea::placeholder {
+  color: gray;
+  font-family: "Inter", sans-serif;
+}
